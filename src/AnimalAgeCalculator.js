@@ -53,7 +53,7 @@ var AnimalAgeCalculator = React.createClass({
 
                 <p>You say your animal's age is: {this.state.age}</p>
 
-                <p>Your pet {this.state.animal}'s age in human years is: {this.calculateAgeInHumanYrs()}</p>
+                <p>Your hiiiiiiiiii pet {this.state.animal}'s age in human years is: {this.calculateAgeInHumanYrs()}</p>
             </div>
 
         );
