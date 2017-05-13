@@ -1,0 +1,14 @@
+.index {
+    text-align: center;
+
+    margin:0;
+    padding:0;
+    background:url("background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
