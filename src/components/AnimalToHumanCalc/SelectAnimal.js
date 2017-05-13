@@ -3,7 +3,7 @@
  */
 var React = require("react");
 
-var Menu = React.createClass({
+var SelectAnimal = React.createClass({
     handleChange: function(e) {
         var animal = e.target.value;
         this.props.onChange(animal);
@@ -50,4 +50,4 @@ var Menu = React.createClass({
     }
 });
 
-module.exports = Menu;
+module.exports = SelectAnimal;

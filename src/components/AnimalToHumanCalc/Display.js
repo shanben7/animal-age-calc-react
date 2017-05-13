@@ -2,9 +2,6 @@
  * Created by Shannon on 2017-05-03.
  */
 
-/**
- * Created by Shannon on 2017-05-03.
- */
 const React = require("react");
 
 const divStyle = {
