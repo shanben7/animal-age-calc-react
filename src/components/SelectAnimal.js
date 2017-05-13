@@ -13,7 +13,8 @@ var Menu = React.createClass({
     render: function () {
         return (<div>
             <select id="animals"
-                    onChange = {this.handleChange} >
+                    onChange = {this.handleChange}
+                    style={{width: 130, fontSize: 14}}>
                 <option value="cat">
                     Cat
                 </option>

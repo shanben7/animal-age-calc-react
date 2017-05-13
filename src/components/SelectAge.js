@@ -14,15 +14,19 @@ const Input = React.createClass({
         var result = [];
 
         for (var i = 1; (this.props.lifespan) ? i <=10 : i <=20; i++) {
-                result.push(<option value={i}>{i}</option>);
-            }
-            return result;
+            result.push(<option value={i}>{i}</option>);
+        }
+        return result;
     },
 
     render: function () {
         return (
             <div>
-                <select id="age" onChange={this.handleChange}>{this.renderSelect()}</select>
+                <select id="age"
+                        onChange={this.handleChange}
+                        style={{width:70, fontSize: 12}} >
+                    {this.renderSelect()}
+                </select>
             </div>
         );
     }
