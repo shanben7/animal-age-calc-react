@@ -151,9 +151,9 @@ const AnimalAgeCalculator = React.createClass({
                 <Display />
                 <SelectAnimal onChange={this.changeAnimal}/>
                 <SelectAge lifespan={this.isShortLiving()} onChange={this.changeAge} />
-                <img src={images[animal]} alt={animal} width="175" height="175"/>
+                <img src={images[animal]} alt={animal} width="140" height="140"/>
                 <br />
-                Your {animal}'s age in human years is: {this.calculateAgeInHumanYrs()}
+                Your {animal}'s age in human years is: <span style={{fontSize: 35}}><b>{this.calculateAgeInHumanYrs()}</b></span>
                 <br />
                 {this.generateComment()}
                 <p> </p>

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3f25c527-e432-4843-b5e8-55af46eda649" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnimalAgeCalculator.js" afterPath="$PROJECT_DIR$/src/AnimalAgeCalculator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Display.js" afterPath="$PROJECT_DIR$/src/components/Display.js" />
     </list>
     <ignored path="animal-age-react.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -41,8 +42,8 @@
       <file leaf-file-name="AnimalAgeCalculator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnimalAgeCalculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2370">
-              <caret line="158" column="24" lean-forward="true" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="153" column="77" lean-forward="false" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -51,8 +52,8 @@
       <file leaf-file-name="Display.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Display.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="254">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -61,7 +62,7 @@
       <file leaf-file-name="SelectAge.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SelectAge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-174">
               <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
@@ -72,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/SelectAnimal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -81,8 +82,8 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -114,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,13 +139,13 @@
         <option value="$PROJECT_DIR$/src/styles.js" />
         <option value="$PROJECT_DIR$/src/components/Input.js" />
         <option value="$PROJECT_DIR$/src/components/Menu.js" />
-        <option value="$PROJECT_DIR$/src/components/Display.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/SelectAnimal.js" />
-        <option value="$PROJECT_DIR$/src/components/SelectAge.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/SelectAge.js" />
+        <option value="$PROJECT_DIR$/src/components/Display.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/AnimalAgeCalculator.js" />
       </list>
     </option>
@@ -350,12 +351,12 @@
       <workItem from="1493957693204" duration="1427000" />
       <workItem from="1494005469170" duration="300000" />
       <workItem from="1494047734832" duration="6686000" />
-      <workItem from="1494641296438" duration="13806000" />
+      <workItem from="1494641296438" duration="15001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22219000" />
+    <option name="totallyTimeSpent" value="23414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="701" extended-state="6" />
@@ -532,26 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Display.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SelectAge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SelectAnimal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -577,15 +562,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -593,15 +570,39 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SelectAge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnimalAgeCalculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="158" column="24" lean-forward="true" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="153" column="77" lean-forward="false" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
           <folding />
         </state>
       </provider>
