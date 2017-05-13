@@ -1,24 +1,17 @@
 .App {
   text-align: center;
+
+  height:100%;
+  width:100%;
+  background-image:url(background2.png);/*your background image*/
+  background-repeat:repeat;/*we want to have one single image not a repeated one*/
+  background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+  /*css hack for ie*/
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+  -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Display {
+  background-color: salmon;
 }
