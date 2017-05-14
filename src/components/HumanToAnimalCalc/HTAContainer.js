@@ -41,7 +41,7 @@ const HTAContainer = React.createClass({
     render: function () {
         let animal = this.state.animal;
 
-        return (<div>
+        return (<div style={{lineHeight: "0.8em"}}>
                 <Display />
                 <SelectAnimal onChange={this.changeAnimal}/>
                 <br/>

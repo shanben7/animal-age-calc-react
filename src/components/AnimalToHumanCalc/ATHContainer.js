@@ -117,7 +117,7 @@ const ATHContainer = React.createClass({
     render: function () {
         let animal = this.state.animal;
 
-        return (<div>
+        return (<div style={{lineHeight: "0.49em"}}>
                 <Display />
                 <SelectAnimal onChange={this.changeAnimal}/>
                 <SelectAge lifespan={this.isShortLiving()} onChange={this.changeAge} />

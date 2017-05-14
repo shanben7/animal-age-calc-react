@@ -13,8 +13,8 @@ var Display = React.createClass({
     render: function () {
         return (
             <div style={divStyle}>
-                <h3> Let's find out your pet's age in human years!</h3>
-                <h4>What kind of pet do you have?</h4>
+                <h4> Let's find out your pet's age in human years!</h4>
+                <h5>What kind of pet do you have?</h5>
             </div>
 
 

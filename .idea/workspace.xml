@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f25c527-e432-4843-b5e8-55af46eda649" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnimalAgeCalculator.js" afterPath="$PROJECT_DIR$/src/AnimalAgeCalculator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js" afterPath="$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js" afterPath="$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AnimalToHumanCalc/SelectAge.js" afterPath="$PROJECT_DIR$/src/components/AnimalToHumanCalc/SelectAge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/Display.js" afterPath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/Display.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js" afterPath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAge.js" afterPath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAnimal.js" afterPath="$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAnimal.js" />
     </list>
     <ignored path="animal-age-react.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +41,8 @@
       <file leaf-file-name="Display.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -66,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectAge.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SelectAge.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/SelectAge.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -109,20 +103,20 @@
       <file leaf-file-name="HTAContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="132">
+              <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ATHContainer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ATHContainer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+            <state relative-caret-position="73">
+              <caret line="119" column="46" lean-forward="false" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
               <folding>
-                <marker date="1494733854000" expanded="true" signature="3215:3226" ph="..." />
+                <marker date="1494734832000" expanded="true" signature="3246:3257" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,8 +125,8 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="104" lean-forward="false" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -177,13 +171,13 @@
         <option value="$PROJECT_DIR$/src/components/HumanToAnimalCalc/Display.js" />
         <option value="$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAnimal.js" />
         <option value="$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAge.js" />
-        <option value="$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js" />
         <option value="$PROJECT_DIR$/src/AnimalAgeCalculator.js" />
-        <option value="$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js" />
-        <option value="$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/AnimalToHumanCalc/SelectAnimal.js" />
         <option value="$PROJECT_DIR$/src/components/AnimalToHumanCalc/SelectAge.js" />
+        <option value="$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js" />
       </list>
     </option>
   </component>
@@ -448,12 +442,12 @@
       <workItem from="1493957693204" duration="1427000" />
       <workItem from="1494005469170" duration="300000" />
       <workItem from="1494047734832" duration="6686000" />
-      <workItem from="1494641296438" duration="33459000" />
+      <workItem from="1494641296438" duration="33830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41872000" />
+    <option name="totallyTimeSpent" value="42243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="701" extended-state="6" />
@@ -712,46 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
-          <folding>
-            <marker date="1494733854000" expanded="true" signature="3215:3226" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HumanToAnimalCalc/SelectAge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="19" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -772,11 +730,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/Display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/SelectAge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="104" lean-forward="false" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HumanToAnimalCalc/HTAContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AnimalToHumanCalc/ATHContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="119" column="46" lean-forward="false" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
+          <folding>
+            <marker date="1494734832000" expanded="true" signature="3246:3257" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
