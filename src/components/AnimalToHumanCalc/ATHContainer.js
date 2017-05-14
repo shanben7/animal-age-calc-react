@@ -124,10 +124,9 @@ const ATHContainer = React.createClass({
                 <img src={images[animal]} alt={animal} width="140" height="140"/>
                 <br />
                 Your {animal}'s age in human years is: <span style={{fontSize: 35}}><b>{this.calculateAgeInHumanYrs()}</b></span>
-                <br />
+                <p/>
                 {this.generateComment()}
-                <p> </p>
-                <p> </p>
+                <p/>
             </div>
         );
     }

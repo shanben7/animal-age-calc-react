@@ -1,17 +1,43 @@
-var React = require("react");
-var ATHContainer = require("./components/AnimalToHumanCalc/ATHContainer");
-var HTAContainer = require("./components/HumanToAnimalCalc/HTAContainer");
+const React = require("react");
+const ATHContainer = require("./components/AnimalToHumanCalc/ATHContainer");
+const HTAContainer = require("./components/HumanToAnimalCalc/HTAContainer");
 const data = require("./components/Data");
 
 const divStyle = data.divStyle;
 
+const buttonAnimalToHuman = "http://i67.tinypic.com/211oxz6.png";
+const buttonHumanToAnimal = "http://i63.tinypic.com/35bxb84.png";
+const logoURL = "http://blog.flamingtext.com/blog/2017/05/06/flamingtext_com_1494062756_40926389.png";
+
+const buttonStyleATH= {width: 250, height: 45,
+    backgroundImage: 'url(' + buttonAnimalToHuman + ')'};
+
+const buttonStyleHTA= {width: 250, height: 45,
+    backgroundImage: 'url(' + buttonHumanToAnimal + ')'};
+
+
+
 const AnimalAgeCalculator = React.createClass({
+    getInitialState: function () {
+        return {animalToHuman: true};
+    },
+
+    toggleCalculator: function () {
+        this.setState({animalToHuman: !this.state.animalToHuman});
+    },
 
     render: function () {
+        var animalToHuman = this.state.animalToHuman;
 
         return (
             <div style={divStyle}>
-                <HTAContainer />
+                <img src={logoURL} border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"/>
+                <br />
+                <button style={animalToHuman ? buttonStyleATH : buttonStyleHTA}
+                        onClick={this.toggleCalculator}>
+                </button>
+
+                {animalToHuman ? <ATHContainer/> : <HTAContainer/>}
             </div>
         );
     }

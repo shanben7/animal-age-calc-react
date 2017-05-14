@@ -3,6 +3,8 @@
  */
 const React = require("react");
 
+const myPattern= "[0-9]*";
+
 const Input = React.createClass({
 
     handleChange: function (e) {
@@ -10,23 +12,16 @@ const Input = React.createClass({
         this.props.onChange(age);
     },
 
-    renderSelect: function () {
-        var result = [];
-
-        for (var i = 1; i <= 30; i++) {
-            result.push(<option value={i}>{i}</option>);
-        }
-        return result;
-    },
-
     render: function () {
         return (
             <div>
-                <select id="age"
+                <div style={{display: "inline-block", marginRight: 10}}> How old are you? </div>
+
+                <div style={{display:"inline-block"}}>
+                    <input type="number" pattern={myPattern} max="150" min="0"
                         onChange={this.handleChange}
-                        style={{width:70, fontSize: 12}} >
-                    {this.renderSelect()}
-                </select>
+                        style={{width:70, fontSize: 12}} />
+                </div>
             </div>
         );
     }

@@ -21,12 +21,15 @@ const Input = React.createClass({
 
     render: function () {
         return (
-            <div>
+            <div><br/>
+                    <div style={{display: "inline-block", marginRight: 10}}> How old is your pet? </div>
+                <div style={{display:"inline-block"}}>
                 <select id="age"
                         onChange={this.handleChange}
                         style={{width:70, fontSize: 12}} >
                     {this.renderSelect()}
                 </select>
+                </div>
             </div>
         );
     }

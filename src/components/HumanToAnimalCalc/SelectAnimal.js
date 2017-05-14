@@ -12,6 +12,7 @@ var SelectAnimal = React.createClass({
 
     render: function () {
         return (<div>
+            <h5>What kind of animal do you want to convert to?</h5>
             <select id="animals"
                     onChange = {this.handleChange}
                     style={{width: 130, fontSize: 14}}>

@@ -35,7 +35,7 @@ const HTAContainer = React.createClass({
         let result = myHumanAge / animalAgeFactors[myAnimal];
 
         // round to 1 decimal place
-        return  Math.round((result * 1000) / 1000);
+        return  Math.ceil((result * 1000) / 1000);
     },
 
     render: function () {
@@ -43,13 +43,15 @@ const HTAContainer = React.createClass({
 
         return (<div>
                 <Display />
-                <SelectAge onChange={this.changeAge} />
                 <SelectAnimal onChange={this.changeAnimal}/>
+                <br/>
+                <SelectAge onChange={this.changeAge} />
                 <img src={images[animal]} alt={animal} width="140" height="140"/>
                 <br />
                 Your age in {animal} years is: <span style={{fontSize: 35}}><b>{this.calculateAgeInAnimalYears()}</b></span>
                 <br />
                 <p> </p>
+                <p></p>
             </div>
         );
     }
